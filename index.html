@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>NPS</title>
+  </head>
+
+  <body>
+    <img src="/src/O0_logo-02.png" alt="Logo" />
+    <div class="container">
+      <h1>Please share your feedback of O0 Design</h1>
+      <p>
+        On a scale of 1 to 10, how much would you recommend O0 Design to
+        somebody?
+      </p>
+
+      <div class="widget">
+        <button class="detractor">1</button>
+        <button class="detractor">2</button>
+        <button class="detractor">3</button>
+        <button class="detractor">4</button>
+        <button class="detractor">5</button>
+        <button class="passive">6</button>
+        <button class="passive">7</button>
+        <button class="passive">8</button>
+        <button class="promoter">9</button>
+        <button class="promoter">10</button>
+      </div>
+
+      <p class="mt-5">A little breakdown. Please evaluate:</p>
+
+      <div class="breakdown">
+        <div class="row">
+          <p class="text-center mb-2">Assets quality</p>
+          <button class="detractor col-2">Poor</button>
+          <button class="detractor col-2">Marginal</button>
+          <button class="passive col-2">As expected</button>
+          <button class="promoter col-3">Better then expected</button>
+          <button class="promoter col-2">The finest</button>
+        </div>
+        <div class="row">
+          <p class="text-center mt-4 mb-2">Timing</p>
+          <button class="detractor col-2">Poor</button>
+          <button class="detractor col-2">Marginal</button>
+          <button class="passive col-2">As expected</button>
+          <button class="promoter col-3">Better then expected</button>
+          <button class="promoter col-2">The finest</button>
+        </div>
+        <div class="row">
+          <p class="text-center mt-4 mb-2">Involvement</p>
+          <button class="detractor col-2">Poor</button>
+          <button class="detractor col-2">Marginal</button>
+          <button class="passive col-2">As expected</button>
+          <button class="promoter col-3">Better then expected</button>
+          <button class="promoter col-2">The finest</button>
+        </div>
+        <div class="row">
+          <p class="text-center mt-4 mb-2">Communication</p>
+          <button class="detractor col-2">Poor</button>
+          <button class="detractor col-2">Marginal</button>
+          <button class="passive col-2">As expected</button>
+          <button class="promoter col-3">Better then expected</button>
+          <button class="promoter col-2">The finest</button>
+        </div>
+      </div>
+
+      <p class="mt-5">How can we improve?</p>
+
+      <textarea name="textarea" id="textarea" cols="100%" rows="5"></textarea>
+      <div id="send-nps">SUBMIT</div>
+    </div>
+  </body>
+</html>
